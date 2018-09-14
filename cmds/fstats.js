@@ -13,9 +13,6 @@ var images =[
 
 let fortniteAPI = new Fortnite(
     [
-        process.env.EMAIL,
-        process.env.PASSWORD,
-        process.env.EPIC_API,
         process.env.FORTNITE_API
     ],
     {
